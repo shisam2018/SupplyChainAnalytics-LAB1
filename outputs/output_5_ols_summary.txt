@@ -1,0 +1,36 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         total_cost_inr   R-squared:                       0.973
+Model:                            OLS   Adj. R-squared:                  0.971
+Method:                 Least Squares   F-statistic:                     757.1
+Date:                Mon, 13 Jul 2026   Prob (F-statistic):          5.24e-161
+Time:                        14:19:59   Log-Likelihood:                -2111.3
+No. Observations:                 225   AIC:                             4245.
+Df Residuals:                     214   BIC:                             4282.
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const             -4.65e+04   2974.369    -15.634      0.000   -5.24e+04   -4.06e+04
+distance_km         28.2271      0.344     82.154      0.000      27.550      28.904
+weight_tonnes      267.4981     31.765      8.421      0.000     204.885     330.111
+fuel_index         532.4327     27.064     19.673      0.000     479.086     585.779
+toll_plazas        319.6981     53.496      5.976      0.000     214.251     425.145
+monsoon_flag      2284.2634    488.872      4.673      0.000    1320.642    3247.885
+vehicle_type_16T  2409.4936    473.970      5.084      0.000    1475.245    3343.742
+vehicle_type_24T  5279.2801    512.701     10.297      0.000    4268.690    6289.871
+region_North     -1004.5166    560.012     -1.794      0.074   -2108.362      99.328
+region_South      -614.8153    590.315     -1.042      0.299   -1778.392     548.761
+region_West       -198.0412    552.255     -0.359      0.720   -1286.597     890.515
+==============================================================================
+Omnibus:                        1.722   Durbin-Watson:                   2.063
+Prob(Omnibus):                  0.423   Jarque-Bera (JB):                1.683
+Skew:                          -0.134   Prob(JB):                        0.431
+Kurtosis:                       2.672   Cond. No.                     1.79e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.79e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
