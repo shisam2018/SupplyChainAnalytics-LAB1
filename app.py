@@ -108,7 +108,7 @@ def download_xlsx(label, sheets, fname):
 
 page = st.sidebar.radio("Use case", list(PAGES.keys()))
 st.sidebar.markdown("---")
-st.sidebar.caption("IIM Calcutta · Guest Lecture Lab\nDecision Models for Supply Chain Management")
+st.sidebar.caption("IIM Calcutta · Guest Lecture on\nADVANCED PROGRAMME IN SUPPLY CHAIN MANAGEMENT")
 
 if page == "Overview":
     st.title("Supply-Chain ML Lab - EPSCM — Six Use Cases, One Storyline")
