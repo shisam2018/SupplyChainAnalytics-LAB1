@@ -1,6 +1,7 @@
 # IIM Calcutta Supply-Chain ML Lab
 Guest-lecture companion code: six pen-and-paper course assignments scaled up
 into industrial machine-learning problems.
+URL: https://shisam2018-supplychainanalytics-lab1-app-ebspgs.streamlit.app/
 
 ## Contents
 - `inputs/`  - six Excel input files (one per model). Swap in your own data
